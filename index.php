@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <title>Bootcamp</title>
   <link rel="stylesheet" href="style.css">
-  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
   <div class="main">
-      <h1>Hello World!</h1>
-      <ul>
-        <li>First</li>
-        <li>Second</li>
-        <li>Third</li>
-      </ul>
+    <h1>Hello World!</h1>
+    <ul>
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ul>
     <form action="" method="post">
       <label for="name">Name</label>
       <input type="text" id="name" name="myname">

@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Bootcamp</title>
   <link rel="stylesheet" href="style.css">
-  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <div class="main">
