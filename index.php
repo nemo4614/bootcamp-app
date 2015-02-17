@@ -7,9 +7,9 @@
 <body>
   <h1>Hello World!</h1>
   <ul>
-    <li>First link</li>
-    <li>Second link</li>
-    <li>Third link</li>
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
   </ul>
   <form action="" method="post">
     <label for="name">Name</label>
