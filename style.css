@@ -22,6 +22,11 @@ a:hover{
   margin: 0 auto;
 }
 
+img{
+  border-radius:10px;
+  border: 2px solid grey;
+}
+
 ul li{
   display: inline;
   padding: 5px 15px;
@@ -46,4 +51,11 @@ button:hover{
   background: #353535;
   border: 1px solid #fff;
   color: #fff;
+}
+.comment{
+  border: 1px solid #fff;
+  border-radius: 15px;
+  margin: 10px 0;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.1);
 }
