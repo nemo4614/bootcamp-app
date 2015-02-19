@@ -45,6 +45,7 @@ button{
   border-radius: 15px;
   padding: 6px 15px;
   cursor: pointer;
+  width: 260px;
 }
 
 button:hover{

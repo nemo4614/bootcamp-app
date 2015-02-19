@@ -8,7 +8,7 @@
 <body>
   <div class="main">
     <h1>Content of second page</h1>
-    <img src="http://www.amusingtime.com/images/021/may-be-blind-but-not-black-funny-meme.jpg" alt="funny meme">
+    <img src="http://lorempixel.com/output/technics-q-c-640-480-3.jpg" alt="funny meme">
     <br>
     <a href="index.php">Link to first page</a>
   </div>
