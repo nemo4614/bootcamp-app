@@ -5,7 +5,7 @@ namespace Bootcamp\Demo;
 class Cilinder extends Circle
 {
 
-  public $height;
+    public $height;
 
   /**
    *Creates an Cilinder instance
@@ -13,18 +13,18 @@ class Cilinder extends Circle
    *@param float $radius Cilinder radius
    *@return void
    */
-  public function __construct($radius, $height)
-  {
-    $this->height = $height;
-    parent::__construct($radius);
-  }
+    public function __construct($radius, $height)
+    {
+        $this->height = $height;
+        parent::__construct($radius);
+    }
 
   /**
    *Return an area of a Rectangle
    *@return float Rectangle area
    */
-  public function getArea()
-  {
-    return 2*pi()*($this->radius)*(($this->radius)+($this->height));
-  }
+    public function getArea()
+    {
+        return 2*pi()*($this->radius)*(($this->radius)+($this->height));
+    }
 }
