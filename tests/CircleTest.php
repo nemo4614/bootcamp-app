@@ -1,5 +1,7 @@
 <?php
 
+use Bootcamp\Demo\Circle;
+
 class CircleTest extends PHPUnit_Framework_TestCase
 {
   public function testGetArea()
