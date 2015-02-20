@@ -9,8 +9,8 @@ $app->get('/hello/{name}', function ($name) use ($app) {
 });
 
 $app->get('/rec', function () use ($app) {
-  $rec = new \Bootcamp\Demo\Rectangle(1,2);
-  return 'Rectangle area '.$rec->getArea();
+  $circle = new \Bootcamp\Demo\Circle(2);
+  return 'Rectangle area '.$circle->getArea();
 });
 
 $app->run();

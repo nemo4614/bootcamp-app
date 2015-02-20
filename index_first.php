@@ -16,7 +16,11 @@
       <li>Third</li>
     </ul>
   <?php endfor; ?>
-    <!-- <form action="saveComment.php" method="post"> -->
+    <!--
+    /**
+      *Uncoment for redirect to saveComment.php and save input values in json file
+      */
+    <form action="saveComment.php" method="post"> -->
     <form action="saveCommentToDB.php" method="post">
       <label for="name" placeholder="$cookie_value">Name</label>
       <br>
