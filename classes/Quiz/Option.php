@@ -22,6 +22,9 @@ class Option
 
     public function isCorrect()
     {
-        return $this->isCorrect;
+        if ($this->isCorrect===true) {
+            return true;
+        }
+        return false;
     }
 }

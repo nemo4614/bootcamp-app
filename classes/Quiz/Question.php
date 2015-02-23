@@ -17,6 +17,7 @@ class Question
     protected $id;
     protected $title;
     protected $type;
+    protected $correctAnswerCount;
 
     public function __construct($title)
     {
@@ -27,19 +28,21 @@ class Question
     public function addOption(Option $option)
     {
         $this->options[] = $option;
+        if (true===$option->isCorrect()) {
+            $this->correctAnswerCount ++;
+        }
     }
 
     public function isMultiAnswer()
     {
-        $count = 0;
-        foreach ($this->options as $option) {
-            if ($option->isCorrect() === true) {
-                $count++;
-            }
-            if ($count>1) {
-                return true;
-            }
+        if ($this->correctAnswerCount > 1) {
+            return true;
         }
         return false;
+    }
+
+    public function getAnswerCount()
+    {
+        return count($this->options);
     }
 }
